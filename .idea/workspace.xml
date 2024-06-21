@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b649d262-e1cb-4d3e-ad7b-bc08471777d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/controllers/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/BookVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/exceptions/RequiredObjectIsNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/repositories/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/services/BookServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/util/MediaType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V10__Insert_Data_In_User_Permission.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_Table_Person.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Populate_Table_Person.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__Create_Table_Books.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__Insert_Data_In_Books.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__Create_Table_Permission.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__Insert_Data_In_Permission.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7__Create_Table_Users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V8__Insert_Data_In_Users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V9__Create_Table_User_Permission.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/configs/TestConfigs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withjson/PersonControllerJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/swagger/SwaggerIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/testcontainers/AbstractIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/vo/PersonVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/unittests/mapper/DozerConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/unittests/mapper/mocks/MockBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/unittests/mapper/mocks/MockPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/unittests/mockito/services/BookServicesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/unittests/mockito/services/PersonServicesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/src/main/java/br/com/erudio/javaawsspring/MathController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/src/main/java/br/com/erudio/javaawsspring/Startup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/src/main/java/br/com/erudio/javaawsspring/exceptions/ExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/src/main/java/br/com/erudio/javaawsspring/exceptions/UnsupportedMathOperationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/src/main/java/br/com/erudio/javaawsspring/exceptions/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/java-aws-spring/src/test/java/br/com/erudio/javaawsspring/JavaAwsSpringApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2i3NDpKAyYOmMYDQUuVZXNqS5Xb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.DozerConverterTest.executor": "Run",
+    "JUnit.DozerMapperTest.executor": "Run",
+    "JUnit.PersonServicesTest.executor": "Run",
+    "JUnit.PersonServicesTest.testFindById.executor": "Run",
+    "JUnit.SwaggerIntegrationTest.executor": "Run",
+    "JUnit.jardson in rest-with-spring-boot-and-java-erudio.executor": "Run",
+    "JUnit.java in rest-with-spring-boot-and-java-erudio.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Startup (1).executor": "Run",
+    "Spring Boot.Startup.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jards/OneDrive/Documentos/Jardson/Estagio/AWS - Material/java-aws-spring/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.erudio.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\resources" />
+      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src" />
+      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\test" />
+      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\test\java\org\jardson" />
+      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\java\br\com\erudio" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Startup">
+    <configuration name="DozerConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-java-erudio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jardson.unittests.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jardson.unittests.mapper" />
+      <option name="MAIN_CLASS_NAME" value="org.jardson.unittests.mapper.DozerConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DozerMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-java-erudio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jardson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jardson" />
+      <option name="MAIN_CLASS_NAME" value="org.jardson.DozerMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-java-erudio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jardson.integrationtests.swagger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.jardson.integrationtests.swagger" />
+      <option name="MAIN_CLASS_NAME" value="org.jardson.integrationtests.swagger.SwaggerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jardson in rest-with-spring-boot-and-java-erudio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-java-erudio" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/org/jardson" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in rest-with-spring-boot-and-java-erudio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-java-erudio" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Startup (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="rest-with-spring-boot-and-java-erudio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.yasmingv.Startup" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-java-erudio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.Startup" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in rest-with-spring-boot-and-java-erudio" />
+        <item itemvalue="JUnit.jardson in rest-with-spring-boot-and-java-erudio" />
+        <item itemvalue="JUnit.SwaggerIntegrationTest" />
+        <item itemvalue="JUnit.DozerMapperTest" />
+        <item itemvalue="JUnit.DozerConverterTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b649d262-e1cb-4d3e-ad7b-bc08471777d3" name="Changes" comment="" />
+      <created>1718715183438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718715183438</updated>
+      <workItem from="1718715184559" duration="2243000" />
+      <workItem from="1718748103198" duration="56000" />
+      <workItem from="1718748167427" duration="837000" />
+      <workItem from="1718807487900" duration="2477000" />
+      <workItem from="1718813829135" duration="2186000" />
+      <workItem from="1718822237530" duration="2356000" />
+      <workItem from="1718830960362" duration="1509000" />
+      <workItem from="1718885540712" duration="8648000" />
+      <workItem from="1718897816821" duration="2180000" />
+      <workItem from="1718913228956" duration="3061000" />
+      <workItem from="1718971138020" duration="5871000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
