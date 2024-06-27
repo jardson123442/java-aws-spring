@@ -5,21 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b649d262-e1cb-4d3e-ad7b-bc08471777d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/security/AccountCredentialsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/data/vo/v1/security/TokenVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/exceptions/InvalidJwtAuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/model/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/security/jwt/JwtConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/security/jwt/JwtTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/security/jwt/JwtTokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/services/UserServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/services/AuthServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/cors/withjson/PersonControllerCorsJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withjson/AuthControllerJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withjson/BookControllerJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withxml/AuthControllerXmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withxml/BookControllerXmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withxml/PersonControllerXmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withyaml/AuthControllerYamlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withyaml/BookControllerYamlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withyaml/PersonControllerYamlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withyaml/mapper/YMLMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/vo/AccountCredentialsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/vo/BookVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/vo/TokenVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/erudio/exceptions/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/exceptions/handler/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/erudio/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/erudio/security/jwt/JwtConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/erudio/security/jwt/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/erudio/security/jwt/JwtTokenFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withjson/PersonControllerJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/controller/withjson/PersonControllerJsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/vo/PersonVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/erudio/integrationtests/vo/PersonVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/erudio/Startup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/erudio/Startup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/erudio/exceptions/handler/CustomizedResponseEntityExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/erudio/exceptions/handler/CustomizedResponseEntityExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/erudio/integrationtests/controller/withjson/PersonControllerJsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/erudio/integrationtests/controller/withjson/PersonControllerJsonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/erudio/integrationtests/vo/PersonVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/erudio/integrationtests/vo/PersonVO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,46 +66,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.DozerConverterTest.executor": "Run",
-    "JUnit.DozerMapperTest.executor": "Run",
-    "JUnit.PersonServicesTest.executor": "Run",
-    "JUnit.PersonServicesTest.testFindById.executor": "Run",
-    "JUnit.SwaggerIntegrationTest.executor": "Run",
-    "JUnit.jardson in rest-with-spring-boot-and-java-erudio.executor": "Run",
-    "JUnit.java in rest-with-spring-boot-and-java-erudio.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Startup (1).executor": "Run",
-    "Spring Boot.Startup.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jards/OneDrive/Documentos/Jardson/Estagio/AWS - Material/java-aws-spring/src/main/java/br/com/erudio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.DozerConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DozerMapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonServicesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonServicesTest.testFindById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SwaggerIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.jardson in rest-with-spring-boot-and-java-erudio.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in rest-with-spring-boot-and-java-erudio.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Startup (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Startup.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jards/OneDrive/Documentos/Jardson/Estagio/AWS - Material/java-aws-spring/src/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.erudio.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\test" />
+      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\java\br\com\erudio\controllers" />
+      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\java\br\com\erudio\services" />
+      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\java\br\com\erudio\config" />
       <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\java\br\com\erudio" />
-      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\java\br\com\erudio\data\vo\v1" />
-      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\java\br\com\erudio\exceptions\handler" />
-      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\java\br\com\erudio\exceptions" />
-      <recent name="C:\Users\jards\OneDrive\Documentos\Jardson\Estagio\AWS - Material\java-aws-spring\src\main\java\br\com\erudio\repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Startup">
+  <component name="RunManager" selected="JUnit.java in rest-with-spring-boot-and-java-erudio">
     <configuration name="DozerConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-with-spring-boot-and-java-erudio" />
       <extension name="coverage">
@@ -205,7 +220,12 @@
       <workItem from="1718913228956" duration="3061000" />
       <workItem from="1718971138020" duration="7380000" />
       <workItem from="1718987124547" duration="1323000" />
-      <workItem from="1719009371645" duration="1534000" />
+      <workItem from="1719009371645" duration="1657000" />
+      <workItem from="1719011057379" duration="14000" />
+      <workItem from="1719321090625" duration="2410000" />
+      <workItem from="1719326422518" duration="1926000" />
+      <workItem from="1719333196679" duration="5236000" />
+      <workItem from="1719356652320" duration="1769000" />
     </task>
     <servers />
   </component>
